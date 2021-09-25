@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DowntimeAlerter.Web", "DowntimeAlerter.Web\DowntimeAlerter.Web.csproj", "{F85602D8-5DAA-467A-AA8D-87CD9E7CF16F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DowntimeAlerter.Infrastructure", "DowntimeAlerter.Infrastructure\DowntimeAlerter.Infrastructure.csproj", "{5189FC71-9FC2-4E1F-B746-D4246C148AE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DowntimeAlerter.Domain", "DowntimeAlerter.Entities\DowntimeAlerter.Domain.csproj", "{0F6A4D1D-A48F-4F2C-95AC-B2B96EB6B011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DowntimeAlerter.Application", "DowntimeAlerter.Application\DowntimeAlerter.Application.csproj", "{533DBF93-E695-4C5C-BB70-0C7F278FE70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DowntimeAlerter.EntityFrameworkCore", "DowntimeAlerter.EntityFrameworkCore\DowntimeAlerter.EntityFrameworkCore.csproj", "{E00AAEFA-8CE4-4738-A016-4CC40D07E179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F85602D8-5DAA-467A-AA8D-87CD9E7CF16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85602D8-5DAA-467A-AA8D-87CD9E7CF16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85602D8-5DAA-467A-AA8D-87CD9E7CF16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85602D8-5DAA-467A-AA8D-87CD9E7CF16F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5189FC71-9FC2-4E1F-B746-D4246C148AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5189FC71-9FC2-4E1F-B746-D4246C148AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5189FC71-9FC2-4E1F-B746-D4246C148AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5189FC71-9FC2-4E1F-B746-D4246C148AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6A4D1D-A48F-4F2C-95AC-B2B96EB6B011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6A4D1D-A48F-4F2C-95AC-B2B96EB6B011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6A4D1D-A48F-4F2C-95AC-B2B96EB6B011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6A4D1D-A48F-4F2C-95AC-B2B96EB6B011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533DBF93-E695-4C5C-BB70-0C7F278FE70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533DBF93-E695-4C5C-BB70-0C7F278FE70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533DBF93-E695-4C5C-BB70-0C7F278FE70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533DBF93-E695-4C5C-BB70-0C7F278FE70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00AAEFA-8CE4-4738-A016-4CC40D07E179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00AAEFA-8CE4-4738-A016-4CC40D07E179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00AAEFA-8CE4-4738-A016-4CC40D07E179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00AAEFA-8CE4-4738-A016-4CC40D07E179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD78E6F8-5D39-4E5A-811B-C3C79D0CA0D7}
+	EndGlobalSection
+EndGlobal

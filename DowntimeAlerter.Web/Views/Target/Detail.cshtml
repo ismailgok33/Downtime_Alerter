@@ -1,0 +1,37 @@
+﻿@model DowntimeAlerter.Application.Models.Target.DetailVm
+
+@{
+    ViewData["Title"] = "CheckResults";
+}
+
+<h1>CheckResults</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Url)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Url)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MonitoringIntervalInMinutes)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MonitoringIntervalInMinutes)
+        </dd>
+    </dl>
+</div>
+
+@Html.Partial("_CheckResults", Model.CheckResults)
+
+<div>
+    <a asp-action="List">Back to List</a>
+</div>

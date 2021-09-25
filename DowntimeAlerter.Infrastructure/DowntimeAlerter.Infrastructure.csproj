@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DowntimeAlerter.Application\DowntimeAlerter.Application.csproj" />
+    <ProjectReference Include="..\DowntimeAlerter.Entities\DowntimeAlerter.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

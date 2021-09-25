@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Hangfire.Core" Version="1.7.25" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DowntimeAlerter.Entities\DowntimeAlerter.Domain.csproj" />
+    <ProjectReference Include="..\DowntimeAlerter.EntityFrameworkCore\DowntimeAlerter.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>
